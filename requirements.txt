@@ -1,0 +1,12 @@
+# Core data stack
+numpy>=2.5
+pandas>=3.0
+scikit-learn>=1.9
+scipy>=1.18
+
+# Dataset loading
+kagglehub[pandas-datasets]>=1.0   # download from Kaggle
+xlrd>=2.0                         # read the local data/dataset.xls fallback
+
+# Notebook kernel (required to run the .ipynb in VS Code / Jupyter)
+ipykernel>=7.4
